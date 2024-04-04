@@ -173,6 +173,34 @@
         }
       }
     },
+    "datadog-agent@latest": {
+      "last_modified": "2024-03-22T11:26:23Z",
+      "resolved": "github:NixOS/nixpkgs/a3ed7406349a9335cb4c2a71369b697cecd9d351#datadog-agent",
+      "source": "devbox-search",
+      "version": "7.50.3",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s4fkh2rf7w7mqrpa2ybh23ivdpnaa07r-datadog-agent-7.50.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s4fkh2rf7w7mqrpa2ybh23ivdpnaa07r-datadog-agent-7.50.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3a8qwg6d3d3030ak35pxg9ildikfm2qz-datadog-agent-7.50.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3a8qwg6d3d3030ak35pxg9ildikfm2qz-datadog-agent-7.50.3"
+        }
+      }
+    },
     "nodejs@21": {
       "last_modified": "2024-02-15T12:53:33Z",
       "plugin_version": "0.0.2",
