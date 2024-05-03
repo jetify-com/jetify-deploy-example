@@ -21,7 +21,7 @@
         "./blog/bin/rails -f ./blog/Rakefile db:prepare"
       ],
       "run_test":     ["./blog/bin/rails test"],
-      "start_server": ["./blog/bin/rails server -b 0.0.0.0 -p 8080"]
+      "start": ["./blog/bin/rails server -b 0.0.0.0 -p 8080"]
     }
   }
 }
