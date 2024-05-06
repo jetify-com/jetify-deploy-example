@@ -15,13 +15,9 @@
     "init_hook": [
     ],
     "scripts": {
-      "prepare": [
-        "gem install rails --no-document",
-        "./blog/bin/bundle install",
-        "./blog/bin/rails -f ./blog/Rakefile db:prepare"
-      ],
+      "prepare": "./scripts/prepare.sh",
       "run_test":     ["./blog/bin/rails test"],
-      "start": ["./blog/bin/rails server -b 0.0.0.0 -p 8080"]
+      "start": ["./scripts/prepare.sh", "./blog/bin/rails server -b 0.0.0.0 -p 8080"]
     }
   }
 }
